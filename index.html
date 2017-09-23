@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.2/css/bulma.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Write your markup here -->
+    <div class="container">
+        <h1 class="title is-1">Change Calculator</h1>
+        <div class="field">
+            <div class="columns is-mobile">
+                <div class="column">
+                    <label class="label">Amount Due</label>
+                    <input class="input" type="text" id="amount-due" />
+                </div>
+                <div class="column">
+                    <label class="label">Amount Recieved</label>
+                    <input class="input" type="text" id="amount-received" />
+                </div>
+            </div>
+            <button class="button is-primary is-outlined" id="calculate-change">Calculate Change</button>
+        </div>
+        <div class="box">
+            <label class="label dark-font">Total Change: </label>
+            <p class="number" id="total-change"> </p>
+        </div>
+        <div id="dollars-output" class="columns is-mobile">
+            <div class="column">
+                <p class="number" id="twenty-dollar-output"> </p>
+                <label class="label twenty">$20 Bills</label>
+            </div>
+            <div class="column">
+                <p class="number" id="ten-dollar-output"> </p>
+                <label class="label">$10 Bills</label>
+            </div>
+            <div class="column">
+                <p class="number" id="five-dollar-output"> </p>
+                <label class="label">$5 Bills</label>
+            </div>
+            <div class="column">
+                <p class="number" id="one-dollar-output"> </p>
+                <label class="label">$1 Bills</label>
+            </div>
+
+        </div>
+        <div class="columns is-mobile">
+            <div class="column">
+                <p class="number" id="quarters-output"> </p>
+                <label class="label">Quarters</label>
+            </div>
+            <div class="column">
+                <p class="number" id="dimes-output"> </p>
+                <label class="label">Dimes</label>
+            </div>
+            <div class="column">
+                <p class="number" id="nickels-output"> </p>
+                <label class="label">Nickels</label>
+            </div>
+            <div class="column">
+                <p class="number" id="pennies-output"> </p>
+                <label class="label">Pennies</label>
+            </div>
+        </div>
+    </div>
+    <!-- Don't forget to add your <script> tag here -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

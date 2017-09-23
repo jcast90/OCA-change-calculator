@@ -1,0 +1,34 @@
+body,
+html {
+    background-color: #9AC2C9;
+}
+
+.container {
+    background-color: #393D3F;
+    padding: 15px;
+    margin: 25px auto;
+    box-shadow: 1px 1px 10px #000;
+    max-width: 900px;
+}
+
+.columns {
+    text-align: center;
+}
+
+.is-1 {
+    color: #9AC2C9;
+    text-align: center;
+}
+
+.number {
+    background-color: #5ECDB3;
+    color: #fff;
+}
+
+.label {
+    color: #fff;
+}
+
+.dark-font {
+    color: #000;
+}
